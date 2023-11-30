@@ -8,7 +8,6 @@ public record SubjectModel(
         String shortName,
         Float credit
 ) {
-
     @Override
     public String toString() {
         return "{ \n" +
